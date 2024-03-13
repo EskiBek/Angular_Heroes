@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    color: rgb(123,23,128);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vw;
+}
+
+h2,h3{
+    border: 2vw dashed hsl(234, 26%, 80%);
+    font-weight: 900;
+}
+
+body{
+    margin: 0 auto;
+    background-image: linear-gradient(to right, rgb(0, 225, 255) , yellow);
+}
+
+input[text],button{
+    color: orange;
+}
