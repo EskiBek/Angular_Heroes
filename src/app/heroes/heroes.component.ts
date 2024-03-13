@@ -16,4 +16,5 @@ export class HeroesComponent {
     this.selectedHero = hero;
   }
 
+  
 }
