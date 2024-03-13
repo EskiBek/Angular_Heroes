@@ -1,0 +1,18 @@
+.selected{
+    color: orange;
+    font-size: 2vw;
+    text-shadow: 2px 3px 4px hsl(0,80%,40%);
+}
+
+.heroes{
+    padding: 2px;
+}
+
+.heroes li{
+    cursor: crosshair;
+    position: relative;
+}
+
+.heroes li .selected:hover{
+    background-color: burlywood;
+}

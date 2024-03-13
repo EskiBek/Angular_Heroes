@@ -6,6 +6,7 @@ h1{
     color: rgb(123,23,128);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2vw;
+    text-shadow: 2px 3px 4px rgb(128, 33, 128);
 }
 
 h2,h3{
@@ -18,6 +19,9 @@ body{
     background-image: linear-gradient(to right, rgb(0, 225, 255) , yellow);
 }
 
-input[text],button{
+input,button{
     color: orange;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    border-radius: 20% / 30%;
 }

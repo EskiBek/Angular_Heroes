@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Hero } from '../hero';
+import { HEROES } from '../mock-heroes';
 
 @Component({
   selector: 'app-heroes', // <-- kopiujemy do HTML i używamy jak znacznik
@@ -8,8 +9,11 @@ import { Hero } from '../hero';
 })
 
 export class HeroesComponent {
-  hero: Hero = { 
-    id: 1, name: 'The Flash' 
-  } 
+  heroes = HEROES;
+
+  selectedHero !: Hero;
+  onSelected(hero: Hero){
+    this.selectedHero = hero;
+  }
 
 }

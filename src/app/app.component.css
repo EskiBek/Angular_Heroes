@@ -14,7 +14,7 @@ h2,h3{
 }
 
 body{
-    text-shadow: 3px 2px 4px magenta;
+    
     font-size: 100%;
     margin: 0 auto;
     background-image: linear-gradient(to right, rgb(0, 225, 255) , yellow);
