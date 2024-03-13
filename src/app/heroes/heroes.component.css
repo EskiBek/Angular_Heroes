@@ -6,11 +6,13 @@
 
 .heroes{
     padding: 2px;
+    width: 10em;
 }
 
 .heroes li{
     cursor: crosshair;
     position: relative;
+    list-style-type: none;
 }
 
 .heroes li .selected:hover{

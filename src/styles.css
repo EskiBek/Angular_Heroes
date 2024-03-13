@@ -23,8 +23,33 @@ body{
     background-image: linear-gradient(to right, rgb(0, 225, 255) , yellow);
 }
 
-input,button{
+body,input[text],button{
     color: orange;
     font-weight: bold;
     text-shadow: 1px 1px black;
+    animation-name: floatingElements;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+
+@keyframes floatingElements{
+    16%{
+        transform: translate(50%,600%);
+    }
+    32%{
+        transform: translate(85%,5%);
+    }
+    48%{
+        transform: translate(85%, 600%);
+    }
+    64%{
+        transform: translate(50%,5%);
+    }
+    80%{
+        transform: translate(0%,600%);
+    }
+    100%{
+        transform: translate(0%,0%);
+    }
 }
